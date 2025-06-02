@@ -1,0 +1,8 @@
+.container div{
+    color :red;
+    background-color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
