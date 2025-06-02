@@ -1,0 +1,12 @@
+.el_1,.el_2{
+    font-size: 28px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.el_1{
+    color: white;
+    background-color: black;
+}
+.el_2{
+    color: white;
+    background-color: yellow;
+}
