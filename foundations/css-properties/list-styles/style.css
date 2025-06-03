@@ -1,0 +1,18 @@
+.ul1{
+    list-style-type: disc;
+}
+.ul2{
+    list-style: circle;
+}
+.ul3{
+    list-style-type: square;
+}
+.ul4{
+    list-style-type:none;
+}
+.ul5{
+    list-style-position: inside;
+}
+.ul6{
+    list-style-type: "😍";
+}
