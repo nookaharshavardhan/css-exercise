@@ -6,12 +6,10 @@
     color: blue;
     font-size: 32px;
 }
-.odd #no_3{
+.change_size{
     font-size: 24px;
-    background-color: lightpink;
 }
 #no_4{
     background-color: lightgreen;
-    font-size: 38;
     font-weight: bold;
 }

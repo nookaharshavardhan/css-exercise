@@ -1,6 +1,5 @@
 .para{
     border : 5px solid red;
-    padding: 100px;
 }
 .para1{
     border: 2px dotted blue;
@@ -15,5 +14,30 @@
     border : 5px groove pink;
 }
 .para5{
-    border : 5px rigrd magenta;
+    border : 5px ridge magenta;
+}
+.para6{
+    border : 5px inset purple;
+}
+.para7{
+    border : 5px outset grey;
+}
+.para8{
+    border : 5px solid blue;
+    border-radius: 50px;
+    padding-left: 5px;
+}
+.para9{
+    border: 2px solid green;
+    border-radius: 0px 10px 0px 10px;
+    padding-left : 9px;
+}
+.table, .table th, .table td{
+    border: 2px solid black;
+    border-collapse: separate;
+    margin-bottom: 5px;
+}
+.table1, .table1 th, .table1 td{
+    border: 2px solid black;
+    border-collapse: collapse;
 }
