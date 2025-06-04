@@ -1,0 +1,19 @@
+.para{
+    border : 5px solid red;
+    padding: 100px;
+}
+.para1{
+    border: 2px dotted blue;
+}
+.para2{
+    border : 5px dashed green;
+}
+.para3{
+    border : 5px double red;
+}
+.para4{
+    border : 5px groove pink;
+}
+.para5{
+    border : 5px rigrd magenta;
+}
