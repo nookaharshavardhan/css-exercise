@@ -1,0 +1,31 @@
+:root {
+    --color : rgb(255, 9, 255);
+    --sec_color :rgb(239, 142, 239);
+    --home_color : hsl(304, 100%, 80%);
+    --padd :30px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    display: flex;
+    background-color: var(--color);
+}
+ul li{
+    list-style: none;
+    padding: var(--padd);
+}
+ul li:hover{
+    cursor: pointer;
+}
+.content{
+    background-color:var(--sec_color);
+    padding: 5px;
+    border: 1px solid black;
+}
+
+ul li:first-child{
+    background-color: var(--home_color);
+}
