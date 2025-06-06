@@ -1,0 +1,8 @@
+*{
+    background-color: blue;
+}
+@media (max-width: 350px) {
+  * {
+    background-color: red;
+  }
+}
