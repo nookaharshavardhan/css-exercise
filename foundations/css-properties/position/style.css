@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.parent{
+    border: 2px solid black;
+    justify-items: center;
+    margin: 10px;
+}
+.parent1{
+    margin: 10px;
+    border: 2px solid black;
+    position:relative;
+    /* exeption --> filter,transform or perspective can act as positioned element*/
+    justify-items: center;
+}
+.parent2{
+    border: 2px solid black;
+    margin: 10px;
+    justify-items: center;
+}
+.box{
+    border: 2px solid black;
+    padding: 2px;
+    height: 133px;
+    width: 80vw;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.one,.one1,.one2{
+    background-color: aqua;
+}
+.two,.two1,.two2{
+    background-color: bisque;
+}
+.three,.three1,.three2{
+    background-color: blueviolet;
+}
+.four,.four1,.four2{
+    background-color: blue;
+}
+.two{
+    position: relative;
+    left: 30px;
+}
+.two1{
+    position: absolute;
+    top: 40px;
+    left:20px
+}
+.one2{
+    /* position: fixed; */
+    position: sticky;
+    top: 0px;
+    height: 50px;
+    border-radius: 10px;
+}
+
