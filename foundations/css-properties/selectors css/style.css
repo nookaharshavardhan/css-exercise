@@ -1,0 +1,42 @@
+.box:first-child{
+    color: blue;
+}
+
+.box1::first-line{
+    color: red;
+}
+.container *{
+    text-shadow: 1px 1px 1px grey;
+}
+.box:nth-child(even){
+    text-decoration: underline;
+}
+.container::before{
+    content: "this is added by ::before";
+    font-size: large;
+}
+.container::after{
+    content: "this is added by ::after";
+    font-size: large;
+}
+::selection{
+    color: white;
+    background-color: blue;
+}
+.box::first-letter{
+    font-size: large;
+    color: grey;
+}
+input::placeholder{
+    color: grey;
+}
+input{
+    display: block;
+    border-radius: 10px;
+    height: 30px;
+}
+input:focus{
+    border-radius:2px;
+    background-color: whitesmoke;
+    outline: none;    
+}
