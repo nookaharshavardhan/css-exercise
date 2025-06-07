@@ -1,0 +1,84 @@
+.container{
+    border:2px solid green;
+}
+.box,.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8{
+    height:24px;
+    border: 3px solid black;
+    width: 24px;
+    margin :3px;
+}
+
+
+.container1,.container2,.container3,.container4,.container5,.container6,.container7,.container8,.container9{
+    border:2px solid green;
+    display: flex;
+}
+.box1{
+    flex-grow: 1;
+}
+
+
+.container2{
+    justify-content:center;
+}
+.container3{
+    align-items:center;
+}
+.container4{
+    flex-direction: column-reverse;
+}
+.container5{
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    align-content: center;/*for multiple line*/
+}
+.container8{
+    height: 200px;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 18px;
+    column-gap: 10px;
+}
+.box8{
+    margin:0;
+}
+
+.order_1{
+    order: 1;
+}
+.order_2{
+    order: 2;
+}
+.order_3{
+    order: 3;
+}
+
+
+.box7{
+    flex-grow: 1;
+}
+.item1{
+    flex-grow: 5;
+}
+.item2{
+    flex-shrink: 16;
+}
+
+
+.container9{
+    height:200px;
+    align-items: center;
+}
+.item{
+    align-self: flex-start;
+}
+.item_1{
+    align-self: flex-end;
+}
+
+
+body{
+    width: 500px;
+    border: 2px solid black;
+}
